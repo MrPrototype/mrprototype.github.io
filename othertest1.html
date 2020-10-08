@@ -6,8 +6,14 @@
 <body>
   
 <p>1) Контент с того же домена:</p>
+<embed width="100px" height="100px" type="text/html" src="test1.html">
+<object width="100px" height="100px" type="text/html" data="test1.html"></object>
+<iframe width="100px" height="100px" src="test1.html"></iframe>
 
 <p>2) Контент с того же домена (black list):</p>
+<embed width="100px" height="100px" type="application/pdf" src="test2.pdf">
+<object width="100px" height="100px" type="application/pdf" data="test2.pdf"></object>
+<iframe width="100px" height="100px" src="test2.pdf"></iframe>
 
 <p>3) Контент со стороннего домена (blocking категория - Общение в сети):</p>
 <embed width="100px" height="100px" type="text/html" src="https://platform.twitter.com/widgets/tweet_button.html">
