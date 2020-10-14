@@ -5,8 +5,16 @@
 </head>
 <body>
 
-<p>Проверка перехода по ссылке с белым реферером на "Content-type": "image/png". Переход разрешен.</p>
+<h1>Проверка перехода по ссылке с белым реферером на "Content-type": "image/*". Переход разрешен.</h1>
+ 
+<p>1) Изображение со стороннего домена (blocking категория - общение в сети):</p>
 <a href="https://vk.com/images/login/ru/reg_android_ru.png">vk.com image link</a>
+
+<p>2) Изображение со стороннего домена (warning категория - Интернет-магазины, банки, платежные системы):</p>
+<a href="https://static.qiwi.com/img/qiwi_com/landing/info-blocks/card.png">qiwi.com image link</a>
+  
+<p>3) Изображение со стороннего домена (black list):</p>
+<a href="https://mephi.ru/content/public/images/links/educational-process-small.jpg">mephi.ru image link</a>
   
 </body>
 </html>
