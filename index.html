@@ -13,6 +13,26 @@
 <a href="https://vk.com/favicon.ico">vk.com</a>
 <a href="https://ok.ru/favicon.ico">ok.ru</a>
 <a href="http://Androsov-M.avp.ru:80/asd.csv">test plain content type</a>
+<script>
+var xhr = new XMLHttpRequest();
+
+xhr.open('GET', 'http://Androsov-M.avp.ru:80/asd.csv', true);
+
+xhr.send();
+
+xhr.onreadystatechange = function() {
+  if (this.readyState != 4) return;
+
+  console.log(this.responseText);
   
+  if (this.status != 200) {
+    // обработать ошибку
+    alert( 'ошибка: ' + (this.status ? this.statusText : 'запрос не удался') );
+    return;
+  }
+
+  // получить результат из this.responseText или this.responseXML
+}
+</script>
 </body>
 </html>
