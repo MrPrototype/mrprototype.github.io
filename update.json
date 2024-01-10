@@ -1,0 +1,28 @@
+{
+  "addons": {
+    "kpm_win_add_on@kaspersky": {
+      "updates": [
+        {
+          "version": "3.9.22",
+          "update_link": "https://browser-plugins.s.kaspersky-labs.com/kpm/extension/firefox/kpm8.6.ext3.9.22.xpi"
+        }
+      ]
+    },
+    "kpm_win_add_on_9.0@kaspersky": {
+      "updates": [
+        {
+          "version": "23.2.95.1",
+          "update_link": "https://browser-plugins.s.kaspersky-labs.com/kpm/extension/firefox/kaspersky_password_manager-23.2.95.1-fx.xpi"
+        }
+      ]
+    },
+    "kpm_win_add_on_9.2_neutral@kaspersky": {
+      "updates": [
+        {
+          "version": "23.2.95.1",
+          "update_link": "https://browser-plugins.s.kaspersky-labs.com/kpm/extension/firefox/password_manager-23.2.95.1-fx.xpi"
+        }
+      ]
+    }
+  }
+}
